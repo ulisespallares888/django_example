@@ -1,3 +1,6 @@
+## app/tests.py
 from django.test import TestCase
 
-# Create your tests here.
+class SimpleTest(TestCase):
+    def test_basic_addition(self):
+        assert 1 + 1 == 2
